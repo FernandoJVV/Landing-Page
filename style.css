@@ -93,7 +93,7 @@ h1{
 /*information section*/
 
 h2{
-    margin-top: 45px;
+    margin-top: 100px;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
@@ -105,7 +105,7 @@ h2{
     display: flex;
     justify-content: center;
     gap: 68px;
-    margin-bottom: 45px;
+    margin-bottom: 100px;
 }
 
 .castle-container{
@@ -166,7 +166,48 @@ h2{
 }
 /*call to action section*/
 
+.call-to-action{
+    display: flex;
+    justify-content: center;
+}
 
+.call-container{
+    margin: 100px;
+    background-color: #3882F6;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+
+#call-title {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.call-text p{
+    margin: 0;
+}
+
+ 
+.call-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-button{
+    text-align: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #F9FAF8 2px solid;
+    padding: 8px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 800;
+}
 
 /*footer section*/
 
